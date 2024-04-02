@@ -4,12 +4,7 @@ public class Comprador extends Pessoa{
 
 
     public Comprador (String nome,String cpf,String cnpj,String email,String telefone,String regiao){
-    this.nome = nome;
-    this.cpf = cpf;
-    this.cnpj = cnpj;
-    this.email = email;
-    this.telefone = telefone;
-    this.regiao = regiao;
+    super(nome, cpf, cnpj, email, telefone, regiao);
     }
     public Comprador(){
         this("Julio","989483984","98934839","julioemail@gmail.com","9988776655","Jenipapo de Minas, MG");

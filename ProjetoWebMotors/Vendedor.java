@@ -2,12 +2,7 @@ package ProjetoWebMotors;
 
 public class Vendedor extends Pessoa{
     public Vendedor (String nome,String cpf,String cnpj,String email,String telefone,String regiao){
-        this.nome = nome;
-        this.cpf = cpf;
-        this.cnpj = cnpj;
-        this.email = email;
-        this.telefone = telefone;
-        this.regiao = regiao;
+        super(nome, cpf, cnpj, email, telefone, regiao);
     }
     public Vendedor(){
         this("Joao","989443984","94934839","joaoemail@gmail.com","9988776755","Curitiba , PR");
